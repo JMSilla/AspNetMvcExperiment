@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNETMvcExperiment", "AspNETMvcExperiment\AspNETMvcExperiment.csproj", "{C3E99AC0-6741-4FA5-AC85-3B0234455CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNETMvcExperiment.Tests", "AspNETMvcExperiment.Tests\AspNETMvcExperiment.Tests.csproj", "{8902AEA8-4D63-4E40-A17F-44F7C36B30FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8902AEA8-4D63-4E40-A17F-44F7C36B30FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8902AEA8-4D63-4E40-A17F-44F7C36B30FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8902AEA8-4D63-4E40-A17F-44F7C36B30FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8902AEA8-4D63-4E40-A17F-44F7C36B30FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E99AC0-6741-4FA5-AC85-3B0234455CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E99AC0-6741-4FA5-AC85-3B0234455CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E99AC0-6741-4FA5-AC85-3B0234455CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E99AC0-6741-4FA5-AC85-3B0234455CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
