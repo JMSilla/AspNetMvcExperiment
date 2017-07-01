@@ -1,3 +1,13 @@
-﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+﻿@section scripts {
+	@Scripts.Render("~/Scripts/homeIndex.js")
+}
+
+<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
 
 <p>Test: @ViewBag.Test</p>
+
+<button id="completeList">Complete list</button>
+
+<h3 id="titleList"></h3>
+<ol id="elementList">
+</ol>

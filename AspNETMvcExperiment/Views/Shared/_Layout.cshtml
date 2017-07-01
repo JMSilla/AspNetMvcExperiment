@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>@ViewBag.Title</title>
+    @Scripts.Render("~/Scripts/jquery-3.1.1.js")
+    @RenderSection("scripts", false)
 </head>
 <body>
 	@RenderBody()

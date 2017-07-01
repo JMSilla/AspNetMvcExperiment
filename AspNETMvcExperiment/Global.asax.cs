@@ -20,6 +20,12 @@ namespace AspNETMvcExperiment
 				new { controller = "Home", action = "Index", id = "" }
 			);
 
+			routes.MapRoute (
+				"Elements",
+				"{controller}/{action}/{id}",
+				new { controller = "Home", action = "Elements", id = "" }
+			);
+
 		}
 
 		public static void RegisterGlobalFilters (GlobalFilterCollection filters)

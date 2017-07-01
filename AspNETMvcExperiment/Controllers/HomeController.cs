@@ -21,6 +21,17 @@ namespace AspNETMvcExperiment.Controllers
 
 			return View ();
 		}
+
+		[HttpPost]
+		public JsonResult Elements()
+		{
+			String[] elements = { "First", "Second", "Third", "Fourth"};
+
+			return Json (new {
+				title = "Element list",
+				elementList = elements
+			});
+		}
 	}
 }
 
