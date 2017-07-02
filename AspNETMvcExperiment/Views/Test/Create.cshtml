@@ -1,0 +1,14 @@
+﻿<h2>Create</h2>
+
+@using (Html.BeginForm("Create", "Test", FormMethod.Post))
+{
+    <fieldset>
+        <label for="name">Name</label>
+        @Html.TextBox("name")
+        <label for="description">Description</label>
+        @Html.TextBox("description")
+        <input type="submit" class="myclassname"/> 
+    </fieldset>
+}
+
+@Html.ActionLink("Return to index", "Index", "Home")
